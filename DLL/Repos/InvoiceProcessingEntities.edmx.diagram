@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2d0a7c0e45e44e1aa5ccd2263397b147" Name="Diagram1">
+        <EntityTypeShape EntityType="InvoiceProcessingModel.SYS_MENURIGHTS" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.SYS_USERMASTER" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_APPMATRIX" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_APPROVALSTATUS" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_APPROVALUSERS" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_BarcodeGen" Width="1.5" PointX="6.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_BarcodeGenMaster" Width="1.5" PointX="6.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_BRANCHINVOICEOUTWARD" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_CityMaster" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_CostCenterMaster" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_CountryMaster" Width="1.5" PointX="2.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_COURIERINWARD" Width="1.5" PointX="10.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_COURIERINWARD_Hist" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_CurrencyTypeMaster" Width="1.5" PointX="4.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_EntityGSTMapping" Width="1.5" PointX="0.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_EntityMaster" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_GLCodeMaster" Width="1.5" PointX="14.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_GRNItemDetails" Width="1.5" PointX="14.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_GRNMaster" Width="1.5" PointX="14.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_InvoiceApprovalMatrix_AP" Width="1.5" PointX="2.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_InvoiceCheckListMaster" Width="1.5" PointX="4.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_InvoiceChecklistStatus" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_InvoiceGSTDetails" Width="1.5" PointX="16.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_Mailroom_InwardOutward" Width="1.5" PointX="6.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_Mapping_OrgTypeDocument" Width="1.5" PointX="16.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_OCRInvoiceItemDetails" Width="1.5" PointX="16.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_OCRProcess_MailRoom" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_PincodeMaster" Width="1.5" PointX="18.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_PlantMaster" Width="1.5" PointX="18.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_PO" Width="1.5" PointX="18.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_PortalMaster" Width="1.5" PointX="0.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_QCProcess_MailRoom" Width="1.5" PointX="2.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_QueueBenchMark" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_RejectionDetails_MailRoom" Width="1.5" PointX="20.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_RejectionMaster_APProcess" Width="1.5" PointX="20.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_RejectionMaster_MailRoom" Width="1.5" PointX="20.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_RejectionMatrix" Width="1.5" PointX="20.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_ReportMaster_AP" Width="1.5" PointX="20.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_ReportMaster_MP" Width="1.5" PointX="14.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_ReportMaster_VP" Width="1.5" PointX="20.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_RoleMaster" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_SACTDSMaster" Width="1.5" PointX="22.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_SBUMASTER" Width="1.5" PointX="4.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_StateMaster" Width="1.5" PointX="6.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_SUPPORTINGDOCMASTER" Width="1.5" PointX="22.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_TDSSectionMaster" Width="1.5" PointX="22.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_TDSSubSectionMaster" Width="1.5" PointX="22.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_UserEntityPlantDet" Width="1.5" PointX="22.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_USERGROUPMAPPING" Width="1.5" PointX="22.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_USERROLEMAPPING" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_VendorGSTMapping" Width="1.5" PointX="24.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_VendorInvoiceUpload" Width="1.5" PointX="24.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_VENDORMASATER" Width="1.5" PointX="12.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_VendorPOMapping" Width="1.5" PointX="14.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_VendorRegist_DocDetails" Width="1.5" PointX="24.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_VendorRegist_DocDetails_Hist" Width="1.5" PointX="6.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_VendorRegistrationMaster" Width="1.5" PointX="20.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_VendorRegistrationMaster_Hist" Width="1.5" PointX="22.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_VendorRequisition" Width="1.5" PointX="24.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_VendorStateMaster" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_ZONEMASTER" Width="1.5" PointX="26.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.SY_KEY_VALUES" Width="1.5" PointX="26.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.SY_KEY_VALUES_BK" Width="1.5" PointX="8.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.SY_KEY_VALUES_BK1" Width="1.5" PointX="26.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_apikey" Width="1.5" PointX="26.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_AutoGenerateGRNCode" Width="1.5" PointX="26.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_BarcodeGen_Old" Width="1.5" PointX="26.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_BarcodeGenMaster_Old" Width="1.5" PointX="26.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_BRANCHMASTER" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_BUSINESSSEGMENT" Width="1.5" PointX="28.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_COMPANYMASTER" Width="1.5" PointX="28.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_COURIERINWARD_Hist_Old" Width="1.5" PointX="28.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_COURIERMASTER" Width="1.5" PointX="14.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_DASHBOARD_Queue" Width="1.5" PointX="30.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_DELOCATIONMASTER" Width="1.5" PointX="30.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_DEPARTMENTMASTER" Width="1.5" PointX="4.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_EMPCODEMASTER" Width="1.5" PointX="30.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_EntityMaster_021121" Width="1.5" PointX="10.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_EXPTYPEMASTER" Width="1.5" PointX="30.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_FUNCTIONMASTER" Width="1.5" PointX="30.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_GLCodeMaster_021121" Width="1.5" PointX="30.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_GRNItemDetails_021121" Width="1.5" PointX="30.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_GRNItemDetails_230222" Width="1.5" PointX="26.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_GRNMaster_021121" Width="1.5" PointX="30.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_GRNMaster_230222" Width="1.5" PointX="6.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_GROUPMASTER" Width="1.5" PointX="16.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_GROUPMASTER_191021" Width="1.5" PointX="28.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_GROUPMASTER_BK" Width="1.5" PointX="30.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_GROUPMASTER_BK1" Width="1.5" PointX="32.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_GROUPMASTER_BK100" Width="1.5" PointX="0.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_INVOEXPCODEMAP" Width="1.5" PointX="32.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_INVOICESTAGINGDATA" Width="1.5" PointX="32.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_INVOICETYPEMASTER" Width="1.5" PointX="12.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_INVOTAXCODEMAP" Width="1.5" PointX="32.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_ItemMaster" Width="1.5" PointX="32.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_JOBNUMBER" Width="1.5" PointX="32.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_lineitem_new" Width="1.5" PointX="32.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_lineitem_new_BK1" Width="1.5" PointX="8.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_LOCATIONMASTER" Width="1.5" PointX="34.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_MISCCODEMASTER" Width="1.5" PointX="2.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_OCRInvoiceItemDetails_BK1" Width="1.5" PointX="34.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_OCRProcess_MailRoom_BK1" Width="1.5" PointX="34.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_PlantMaster_Old" Width="1.5" PointX="34.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_PO_021121" Width="1.5" PointX="18.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_PO_230222" Width="1.5" PointX="34.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_PO_DETAILS" Width="1.5" PointX="4.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_PO_DETAILS_021121" Width="1.5" PointX="14.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_PO_DETAILS_23022022" Width="1.5" PointX="20.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_Query_DesMaster" Width="1.5" PointX="22.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_SACTDSMaster_021121" Width="1.5" PointX="28.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_SBUBLPRDMASTER" Width="1.5" PointX="30.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.tbl_sbutypemaster" Width="1.5" PointX="36.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceProcessingModel.TBL_USERGROUPMAPPING_BK" Width="1.5" PointX="36.75" PointY="4.75" IsExpanded="true" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
