@@ -1,6 +1,8 @@
-﻿using System;
+﻿using BLL.Transactions.VendorPortal.InvoiceSubmission;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 
@@ -8,9 +10,11 @@ namespace FinanceAndAccountsOprations.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+         InvoiceReportBLL obj = new InvoiceReportBLL();
+        public async Task<ActionResult> Index()
         {
-            return View();
+             var result = await obj.GetAlluser();
+             return View(result);
         }
 
         public ActionResult About()

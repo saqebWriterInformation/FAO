@@ -1,31 +1,249 @@
-﻿@{
-    ViewBag.Title = "Home Page";
+﻿@model IEnumerable<DLL.Repos.SYS_USERMASTER>
+
+@{
+    ViewBag.Title = "Index";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<h2>Index</h2>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.User_Type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.User_Type_Code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmpCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmpName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmailId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DeptId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BranchId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Login_Password)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Password_Expiry_Days)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Password_Expiry_Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Attempt_Count)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Last_LogIn_DateTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsActive)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreatedBy)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreatedOn)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UpdatedBy)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UpdatedOn)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Login_IPAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SBUID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LevelNum)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FunctionID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsGetBranchMail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.JISource)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Old_EmailId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CityID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PortalID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Mobile_No)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LandLine_No)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date_Of_Birth)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date_Of_Joining)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Plant_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Entity_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Level_Selection_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Approver_Selection_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ForgotPassword)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RoleID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Approver_Level_Id)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.User_Type)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.User_Type_Code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmpCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmpName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmailId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DeptId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BranchId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Login_Password)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Password_Expiry_Days)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Password_Expiry_Date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Attempt_Count)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Last_LogIn_DateTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsActive)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreatedBy)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreatedOn)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UpdatedBy)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UpdatedOn)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Login_IPAddress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SBUID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LevelNum)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FunctionID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsGetBranchMail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.JISource)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Old_EmailId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CityID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PortalID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Mobile_No)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LandLine_No)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date_Of_Birth)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date_Of_Joining)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Plant_Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Entity_Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Level_Selection_Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Approver_Selection_Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ForgotPassword)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RoleID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Approver_Level_Id)
+        </td>
+        @*<td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.UserId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.UserId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.UserId })
+        </td>*@
+    </tr>
+}
+
+</table>
