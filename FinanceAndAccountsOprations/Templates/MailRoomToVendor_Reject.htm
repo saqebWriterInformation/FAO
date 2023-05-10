@@ -1,0 +1,59 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>HTML Page to Send Mail </title>
+</head>
+<body>
+   
+    <div style="border-top: 3px solid #EB5E00">
+        <br />
+        Dear Vendor, 
+        <br />
+         <br />
+         &nbsp;&nbsp;&nbsp;
+        A invoice is rejected by the WIMS mailroom team. &nbsp;Details of the same are as below:
+        <br />
+     
+        <table border="1" style="border-collapse:collapse">
+            <tr>
+                <td>PO Number:</td>
+                <td>$$ponum$$</td>
+            </tr>
+	    <tr>
+                <td>Invoice Number: </td>
+                <td>$$invoicenum$$</td>
+            </tr>           
+             <tr>
+                <td>Invoice Date:</td>
+                <td>$$invoicedate$$</td>
+            </tr>
+            <tr>
+                <td>Invoice Amount:</td>
+                <td>$$invoamount$$</td>
+            </tr> 
+             <tr>
+                <td>Reject Remark:</td>
+                <td>$$remark$$</td>
+            </tr>
+            <tr>
+                <td>Invoice Checklist:</td>
+                <td>$$chklst$$</td>
+            </tr>         
+        </table>
+         <br />
+         <br/>
+                    
+    </div>
+        <br />
+            <br />
+    <span style="font-family: Arial; font-size: 10pt">Regards,</span>
+    <br />
+    <b><span style="font-family: Arial; font-size: 10pt">Mailroom Team<br />
+    <br />
+        <b><span style="font-family: Arial; font-size: 10pt">Writer Information<br />
+    <br />
+    <br />
+    <br />
+  <span style="font-family: Arial; font-size: 7pt">  Note: This communication is system generated, sent through official email id of Writer Information, Mumbai and hence, it does not require signature.</span>
+   
+</body>
+</html>

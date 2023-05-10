@@ -13,8 +13,17 @@ namespace FinanceAndAccountsOprations.Controllers
          InvoiceReportBLL obj = new InvoiceReportBLL();
         public async Task<ActionResult> Index()
         {
-             var result = await obj.GetAlluser();
-             return View(result);
+            try
+            {
+                var result = await obj.GetAlluser();
+                return View(result);
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+            return View();
         }
 
         public ActionResult About()
